@@ -1,0 +1,23 @@
+[dependencies]
+deadpool-postgres = "0.14.0"
+dotenvy = "0.15.7"
+eyre = "0.6.12"
+futures = { version = "0.3", default-features = false }
+parking_lot = "0.12.3"
+postgres-types = { features = ["derive"], version = "0.2.8" }
+thousands = "0.2.0"
+tokio = { features = ["macros", "rt-multi-thread", "signal"], version = "1.40.0" }
+tokio-postgres = "0.7.11"
+twilight-gateway = "0.16.0-rc.1"
+twilight-http = "0.16.0-rc.1"
+twilight-model = "0.16.0-rc.1"
+twilight-util = { features = ["builder"], version = "0.16.0-rc.1" }
+
+[features]
+set-global-commands = []
+
+[package]
+edition = "2021"
+name = "voz"
+rust-version = "1.82.0"
+version = "0.1.0"

@@ -1,0 +1,5 @@
+# Cargo generated output
+/target
+
+# Environment variables
+.env
