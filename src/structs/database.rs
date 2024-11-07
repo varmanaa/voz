@@ -452,7 +452,7 @@ impl Database {
                     update
                         join_channel
                     set
-                        permanence = $2
+                        privacy = $2
                     where
                         id = $1;
                 ",
