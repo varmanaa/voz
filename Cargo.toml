@@ -6,7 +6,7 @@ futures = { version = "0.3", default-features = false }
 parking_lot = "0.12.3"
 postgres-types = { features = ["derive"], version = "0.2.8" }
 thousands = "0.2.0"
-tokio = { features = ["macros", "rt-multi-thread", "signal"], version = "1.40.0" }
+tokio = { features = ["macros", "rt-multi-thread", "signal"], version = "1.43.1" }
 tokio-postgres = "0.7.11"
 twilight-gateway = "0.16.0-rc.1"
 twilight-http = "0.16.0-rc.1"
